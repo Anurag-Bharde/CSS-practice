@@ -1,0 +1,28 @@
+*{
+    color:rgb(255, 255, 255);
+    margin:0;
+    padding: 0;
+}
+
+#main{
+    height: 60px;
+    background-color: #0f1111;
+      
+}
+#exam{
+   padding-left: 20px;
+   padding-right: 0px;
+   border: 1px solid red;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+button{
+    background-color: #f08804;
+    color:#000000;
+}
+#name{
+    color:#f08804;
+    font-size:25px;
+}
