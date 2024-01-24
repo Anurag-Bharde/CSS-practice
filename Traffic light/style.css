@@ -1,0 +1,37 @@
+*{
+    color:black
+}
+#all{
+    height: 200px;
+    width: 100px;
+    background-color:black;
+    border: 1px dotted;
+   
+}
+#red{
+    height: 40px;
+    width: 40px;
+    margin-top:20px;
+    margin-left: 29%;
+    /* border:1px solid red; */
+    background-color: red;
+    border-radius:50%;
+}
+
+#yel{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    margin-left:29%;
+    margin-top:20px;
+    background-color: yellow;
+}
+
+#gre{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    margin-left:29%;
+    margin-top:20px;
+    background-color: green;
+}
