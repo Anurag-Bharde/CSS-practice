@@ -1,0 +1,39 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.navbar{
+    height: 80px;
+    width: 100%;
+     background-color: black;
+     display: flex;
+     justify-content: space-evenly;
+}
+a{  
+    color: white;
+    text-decoration: none;
+   
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    /* display: inline-block; */
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    
+}
+
+/* Align-items ahs less priority than align-self */
