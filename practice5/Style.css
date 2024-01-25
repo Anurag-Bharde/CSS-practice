@@ -1,0 +1,10 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px;
+      position: fixed;
+      top: 50px;
+    right: 50px;
+    background-image: url("cat.jpg");
+    background-size: cover;
+}

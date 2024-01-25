@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+}
+
+#main{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+ 
+   display: flex;
+   flex-direction:row-reverse;
+}
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 500px;
+    display: inline-block;
+    border: 1px solid black;
+}
+#sub1{
+    background-color: aqua;
+}
+#sub2{
+    background-color: pink;
+}
+#sub3{
+    background-color:beige;
+}
+#sub4{
+    
+    background-color:brown;
+}
+#sub5{
+    background-color:blueviolet;
+}
