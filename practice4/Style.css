@@ -1,0 +1,44 @@
+*{
+    color:rgb(0, 0, 0);
+    margin:0;
+    padding: 0;
+}
+
+#main{
+    height: 60px;
+    background-color: #0f1111;
+      
+}
+#exam{
+   padding-left: 20px;
+   padding-right: 0px;
+   border: 1px solid red;
+}
+a{
+    color: white;
+    margin-right: 200px;
+    text-decoration: none;
+}
+button{
+    background-color: #f08804;
+    color:#000000;
+}
+#name{
+    color:#f08804;
+    font-size:25px;
+}
+.contentbox{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+#content{
+    height: 620px;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: url("cat.jpg");
+     background-size: cover;
+}
+#par{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+   display: inline-block;
+    background-color: blueviolet;
+    
+    position: fixed;
+}
+#k{
+    margin-top: 400px;
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+   display: inline-block;
+    background-color: blanchedalmond;
+    /* position: sticky; */
+}
+#t{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+   /* /* display: inline-block; * */
+
+   position: sticky;
+   top: 0px;
+   left: 100px;
+ background-color: rgb(97, 129, 200);
+}
+#m{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+   display: inline-block;
+    background-color: rgb(153, 79, 79);
+}
+#hei{
+    height: 160px;
+}
+#eps{
+    position: fixed;
+    height: 40px;
+    width:100%;
+    background-color: rgb(248, 245, 245);
+    color:rgb(208, 5, 5);
+    text-align: center;
+}

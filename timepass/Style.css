@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display:inline-block;
+}
+#abc{
+    background-color: rgb(255, 0,0,0.5);
+}
+#abd{
+    background-color: green;
+/* display: none; */
+}
+#abe{
+    background-color: red;
+}
