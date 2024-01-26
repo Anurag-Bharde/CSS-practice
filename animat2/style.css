@@ -1,0 +1,28 @@
+#ego{
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  animation: coloe 4s ease-in 1s infinite alternate;
+}
+
+@keyframes coloe{
+    0%{
+        left: 0px;
+        background-color: rgba(255,0,0,1);
+    }
+    25%{
+        background-color: rgba(255,0,0,0.7);
+
+    }
+    50%{
+        background-color: rgba(255,0,0,0.5);
+
+    }
+    100%{
+        background-color: rgba(255,0,0,0);
+
+    }
+}
