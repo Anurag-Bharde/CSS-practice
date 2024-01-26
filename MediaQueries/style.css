@@ -1,0 +1,24 @@
+#fd{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+}
+
+@media (min-width:600px){
+    #fd{
+        background-color: black;
+    }
+}
+
+#minmax{
+    margin-left: 60px;
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+}
+@media (min-width:200px) and (max-width:600px){
+    #minmax{
+        background-color: green;
+         
+    }
+}
