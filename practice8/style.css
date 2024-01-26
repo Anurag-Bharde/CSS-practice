@@ -1,0 +1,17 @@
+#main{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid rgb(47, 136, 226);
+    border-top: 20px solid black;
+    animation-name: spin;
+    animation: spin 3s linear 0.2s infinite none;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
