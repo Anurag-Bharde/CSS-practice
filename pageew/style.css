@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    padding: 10px;
+}
+a{
+    background-color: #e3bfed;
+    
+
+    padding-right: 10px;
+    justify-content: space-evenly;
+}
+header{
+    height: 23vh;
+    background-color: #a09e9e;
+}
+#headHeadr{
+    padding: 10px;
+}
+section{
+    height: 50vh;
+    /* width: 100%; */
+    background-color: rgb(172, 223, 223);
+}
+
+#sec1{
+    padding: 10px;
+    /* margin: px */
+    display: flex;
+    justify-content: space-evenly;
+}
+article{
+    background-color: black;
+    width: 80%; /* Set width of the container */
+    margin: 0 auto; /* Center the container */
+    border: 1px solid #ccc; /* Optional: Add a border for visualization */
+    padding: 20px; /* Optional: Add padding for spacing */
+    overflow: hidden; 
+}
+#artic{
+    color: pink;
+    font-size: 16px; /* Set fixed font size */
+    max-width: 100%; /* Ensure the text doesn't overflow */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide any overflow text */
+    text-overflow: ellipsis; 
+}
+h2{
+    color: #f9eeee;
+}
+
+footer{
+    position: relative;
+    /* display: inline-block; */
+}
+h4{
+    padding-left: 50%;
+}
