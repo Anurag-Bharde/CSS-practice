@@ -16,9 +16,7 @@
     grid-template-rows: 28% 55% 17% ;
     position: relative;
  }
- .elem{
- /* border: 1px solid black; */
- }
+ 
  #elemn1{
     padding: 2vh;
    }
@@ -147,11 +145,6 @@
      object-fit: cover;
    }
 
-   #elemn2{
-      /* padding: %; */
-      
-      
-}
 #elemn2 h4{
    justify-self: end;  
       text-align: right;
