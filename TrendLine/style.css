@@ -7,26 +7,29 @@
 html, body{
     height: 100%;
     width: 100%;
-    background-color: rgb(55, 55, 55);
+    background-color: rgb(238, 238, 238);
 }
 #mainbody{
  
 }
 #upnav{
+    /* background-color: pink; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: beige;
+    /* background-color: beige; */
     height: 60px;
     width: 100%;
 }
 #uplogo{
 display: flex;
+padding: 21px;
 }
 #firstG, #secG{
-  background-color: brown;
-  height: 50px;
-  width: 50px;
+  background-color: rgb(0, 0, 0);
+  
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -36,13 +39,108 @@ display: flex;
     display: flex;
     justify-self: space-evenly;
 }
+span{
+    color: rgb(118, 118, 118);
+}
 #h4z{
-    padding-right: 20px;
+    padding-right: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #inne{
     background-color: rgb(0, 0, 0);
   height: 1rem;
   width: 1rem;
   border-radius: 50%;
+}
+#downnav{
+    /* background-color: pink; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+#h4nav{
+  padding-right: 60px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+#content{
+    height: calc(100% - 116px);
+    width: 100%;
+}
+#text-c{
+    background-color: rgba(58, 165, 170, 0.484);
+    text-transform: uppercase;
+    height: 35%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+#text-c::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+}
+#text-c::-webkit-scrollbar-thumb{
+    background-color: chocolate;
+}
+.elem{
+    flex-shrink: 0;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elem h1{
+    font-size: 110px;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#imgcont{
+    /* border: 2px solid black; */
+    padding: 0;
+    height: 66%;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    /* object-fit: cover; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    
+}
+
+#imgcont img{
+    margin-right: 4px;
+    border-radius: 1%;
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* object-position: 0% 30%; */
+}
+#img1{
+    object-position: 0% 70%;
+}
+#img3{
+    object-position: 0% 60%;
+}
+#img2{
+    object-position: 0% 50%;
+}
+
+#imgcont::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+}
+#imgcont::-webkit-scrollbar-thumb{
+ background-color: burlywood;
 }
